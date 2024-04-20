@@ -189,6 +189,19 @@
         ]
     },
     {
+        "title": "Inheritance",
+        "choices": [
+            {
+                "title": "Allow",
+                "explanation": ""
+            },
+            {
+                "title": "Forbid",
+                "explanation": ""
+            }
+        ]
+    },
+    {
         "title": "Number of methods return values",
         "choices": [
             {
