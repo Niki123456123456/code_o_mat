@@ -1,5 +1,25 @@
 {
     "Name": "Go",
+    "Released": "2012",
+    "Color": "#00ACD7",
     "Runtime Execution": "Machine Code",
-    "Memory Managemant": "Garbage Collector"
+    "Memory Managemant": "Garbage Collector",
+    "Typification": "Static",
+    "Error Handling": "Return Value And Error",
+    "Null References": "Allow",
+    "Variable Changeability": "Always Mutable",
+    "Copy VS Reference": "In The Method Definition",
+    "Field Inizialization": "Optional",
+    "Namespace": "Folder Wide",
+    "Function Assignment": "Assigned To Namespace",
+    "Algebraic Data Types": "Forbid",
+    "Operator Overloading": "Forbid",
+    "Tuples": "Forbid",
+    "Interface Methods Without Class References": "Forbid",
+    "Inheritance": "Forbid",
+    "Number of methods return values": "Any",
+    "Dependency Management": "Package Manager",
+    "Refection": "Runtime",
+    "Interface Implementation": "implicitly",
+    "Aspect Oriented Programming": "Unsupported"
 }

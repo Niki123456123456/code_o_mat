@@ -34,6 +34,19 @@
         ]
     },
     {
+        "title": "Typification",
+        "choices": [
+            {
+                "title": "Dynamic",
+                "explanation": ""
+            },
+            {
+                "title": "Static",
+                "explanation": ""
+            }
+        ]
+    },
+    {
         "title": "Error Handling",
         "choices": [
             {
@@ -150,7 +163,7 @@
         ]
     },
     {
-        "title": "Operator Overwriting",
+        "title": "Operator Overloading",
         "choices": [
             {
                 "title": "Allow",
@@ -254,19 +267,6 @@
         ]
     },
     {
-        "title": "Typification",
-        "choices": [
-            {
-                "title": "Dynamic",
-                "explanation": ""
-            },
-            {
-                "title": "static",
-                "explanation": ""
-            }
-        ]
-    },
-    {
         "title": "Aspect Oriented Programming",
         "choices": [
             {
@@ -278,7 +278,7 @@
                 "explanation": ""
             },
             {
-                "title": "No Support",
+                "title": "Unsupported",
                 "explanation": ""
             }
         ]

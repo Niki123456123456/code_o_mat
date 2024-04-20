@@ -1,5 +1,25 @@
 {
     "Name": "C#",
+    "Released": "2002",
+    "Color": "#6E0885",
     "Runtime Execution": "Virtual Machine",
-    "Memory Managemant": "Garbage Collector"
+    "Memory Managemant": "Garbage Collector",
+    "Typification": "Static",
+    "Error Handling": "Exceptions",
+    "Null References": "Allow",
+    "Variable Changeability": "Always Mutable",
+    "Copy VS Reference": "In The Type Definition",
+    "Field Inizialization": "Optional",
+    "Namespace": "Folder Wide",
+    "Function Assignment": "Assigned To Class",
+    "Algebraic Data Types": "Forbid",
+    "Operator Overloading": "Allow",
+    "Tuples": "Allow",
+    "Interface Methods Without Class References": "Allow",
+    "Inheritance": "Allow",
+    "Number of methods return values": "One or Zero",
+    "Dependency Management": "Package Manager",
+    "Refection": "Runtime",
+    "Interface Implementation": "explicitly",
+    "Aspect Oriented Programming": "After Compiling"
 }

@@ -1,5 +1,25 @@
 {
     "Name": "Typescript",
+    "Released": "2014",
+    "Color": "#2D79C7",
     "Runtime Execution": "Interpreting",
-    "Memory Managemant": "Garbage Collector"
+    "Memory Managemant": "Garbage Collector",
+    "Typification": "Static",
+    "Error Handling": "Exceptions",
+    "Null References": "Allow",
+    "Variable Changeability": "Optionally Constant",
+    "Copy VS Reference": "In The Type Definition",
+    "Field Inizialization": "",
+    "Namespace": "Folder Wide",
+    "Function Assignment": "Assigned To Namespace",
+    "Algebraic Data Types": "Allow",
+    "Operator Overloading": "Forbid",
+    "Tuples": "Allow",
+    "Interface Methods Without Class References": "",
+    "Inheritance": "Allow",
+    "Number of methods return values": "",
+    "Dependency Management": "Package Manager",
+    "Refection": "",
+    "Interface Implementation": "",
+    "Aspect Oriented Programming": ""
 }

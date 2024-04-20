@@ -1,5 +1,25 @@
 {
     "Name": "Python",
+    "Released": "1994",
+    "Color": "#FFE974",
     "Runtime Execution": "Interpreting",
-    "Memory Managemant": "Garbage Collector"
+    "Memory Managemant": "Garbage Collector",
+    "Typification": "Dynamic",
+    "Error Handling": "Exceptions",
+    "Null References": "Allow",
+    "Variable Changeability": "",
+    "Copy VS Reference": "In The Type Definition",
+    "Field Inizialization": "Optional",
+    "Namespace": "Folder Wide",
+    "Function Assignment": "Assigned To Namespace",
+    "Algebraic Data Types": "Allow",
+    "Operator Overloading": "Allow",
+    "Tuples": "Allow",
+    "Interface Methods Without Class References": "",
+    "Inheritance": "",
+    "Number of methods return values": "One or Zero",
+    "Dependency Management": "Package Manager",
+    "Refection": "",
+    "Interface Implementation": "",
+    "Aspect Oriented Programming": ""
 }

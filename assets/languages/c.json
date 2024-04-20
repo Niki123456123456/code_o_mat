@@ -1,5 +1,25 @@
 {
     "Name": "C",
+    "Released": "1972",
+    "Color": "#004283",
     "Runtime Execution": "Machine Code",
-    "Memory Managemant": "Allocation"
+    "Memory Managemant": "Allocation",
+    "Typification": "Static",
+    "Error Handling": "Return Value And Error",
+    "Null References": "Allow",
+    "Variable Changeability": "Optionally Constant",
+    "Copy VS Reference": "In The Method Definition",
+    "Field Inizialization": "Optional",
+    "Namespace": "File Wide",
+    "Function Assignment": "Assigned To Namespace",
+    "Algebraic Data Types": "Forbid",
+    "Operator Overloading": "Forbid",
+    "Tuples": "Forbid",
+    "Interface Methods Without Class References": "",
+    "Inheritance": "Forbid",
+    "Number of methods return values": "One or Zero",
+    "Dependency Management": "Independent Management",
+    "Refection": "Compiletime",
+    "Interface Implementation": "",
+    "Aspect Oriented Programming": "Unsupported"
 }
