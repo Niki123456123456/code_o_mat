@@ -1,0 +1,273 @@
+[
+    {
+        "title": "Runtime Execution",
+        "choices": [
+            {
+                "title": "Machine Code",
+                "explanation": "The source code is compiled into machine code by the compiler. The machine code can later be executed directly by the CPU"
+            },
+            {
+                "title": "Virtual Machine",
+                "explanation": "The source code is compiled into bytecode first, then the virtual machine executes the program"
+            },
+            {
+                "title": "Interpreting",
+                "explanation": "Interpreted languages are not compiled. They are interpreted by the interpreter during runtime"
+            }
+        ]
+    },
+    {
+        "title": "Memory Managemant",
+        "choices": [
+            {
+                "title": "Garbage Collector",
+                "explanation": "I let the garbage collector clean up the memory"
+            },
+            {
+                "title": "Allocation",
+                "explanation": "I like to take care of the memory myself"
+            },
+            {
+                "title": "Borrowing",
+                "explanation": "I like to fight against the borrow checker"
+            }
+        ]
+    },
+    {
+        "title": "Error Handling",
+        "choices": [
+            {
+                "title": "Exceptions",
+                "explanation": ""
+            },
+            {
+                "title": "Return Value And Error",
+                "explanation": ""
+            },
+            {
+                "title": "Return Value Or Error",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "title": "Null References",
+        "choices": [
+            {
+                "title": "Allow",
+                "explanation": ""
+            },
+            {
+                "title": "Forbid",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "title": "Variable Changeability",
+        "choices": [
+            {
+                "title": "Always Mutable",
+                "explanation": "Variables are always mutable"
+            },
+            {
+                "title": "Optionally Constant",
+                "explanation": "Variables can optionally be marked as constant"
+            },
+            {
+                "title": "Constant By Default",
+                "explanation": "Variables are constant by default. They must be marked first befor they get mutable"
+            }
+        ]
+    },
+    {
+        "title": "Copy VS Reference",
+        "choices": [
+            {
+                "title": "In The Type Definition",
+                "explanation": "You decide in the type definition whether the values are copied or referenced in the method call by defining a valuetype or a referencetype"
+            },
+            {
+                "title": "In The Method Definition",
+                "explanation": "You decide in the method definition whether the values are copied or referenced when the method is called by marking a parameter as a reference or pointer"
+            },
+            {
+                "title": "With The Method Call",
+                "explanation": "When I call a method i want to decide whether I copy the value or submit a reference"
+            }
+        ]
+    },
+    {
+        "title": "Field Inizialization",
+        "choices": [
+            {
+                "title": "Optional",
+                "explanation": "The field inizialization is optional when creating a new variable. If a field is not inizialied its value is the default value"
+            },
+            {
+                "title": "Mandatory",
+                "explanation": "The field inizialization is always mandatory when creating a new variable. you must explicitly say if you want to use the default value"
+            }
+        ]
+    },
+    {
+        "title": "Namespace",
+        "choices": [
+            {
+                "title": "Folder Wide",
+                "explanation": ""
+            },
+            {
+                "title": "File Wide",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "title": "Function Assignment",
+        "choices": [
+            {
+                "title": "Assigned To Class",
+                "explanation": "Functions are always assigned to a class. Functions that have no interactions with classes are the exception and are marked separately"
+            },
+            {
+                "title": "Assigned To Namespace",
+                "explanation": "Functions are assigned to a namespace. Many functions have no special interaction with a specific class. If a function is specially tailored to a class, this class is marked as a special parameter"
+            }
+        ]
+    },
+    {
+        "title": "Algebraic Data Types",
+        "choices": [
+            {
+                "title": "Allow",
+                "explanation": ""
+            },
+            {
+                "title": "Forbid",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "title": "Operator Overwriting",
+        "choices": [
+            {
+                "title": "Allow",
+                "explanation": ""
+            },
+            {
+                "title": "Forbid",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "title": "Tuples",
+        "choices": [
+            {
+                "title": "Allow",
+                "explanation": ""
+            },
+            {
+                "title": "Forbid",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "title": "Interface Methods Without Class References",
+        "choices": [
+            {
+                "title": "Allow",
+                "explanation": ""
+            },
+            {
+                "title": "Forbid",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "title": "Number of methods return values",
+        "choices": [
+            {
+                "title": "One or Zero",
+                "explanation": ""
+            },
+            {
+                "title": "Any",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "title": "Dependency Management",
+        "choices": [
+            {
+                "title": "Package Manager",
+                "explanation": "I want to use a package manager who has access to a central repository including all packages"
+            },
+            {
+                "title": "Independent Management",
+                "explanation": "I like to take care of the dependencies myself. There is no central repository for packages"
+            }
+        ]
+    },
+    {
+        "title": "Refection",
+        "choices": [
+            {
+                "title": "Runtime",
+                "explanation": "Information about all types and functions is saved and you have access in the runtime"
+            },
+            {
+                "title": "Compiletime",
+                "explanation": "The refection only works at compiletime. If you want to gain information about your types you have to mark the before compiling"
+            }
+        ]
+    },
+    {
+        "title": "Interface Implementation",
+        "choices": [
+            {
+                "title": "explicitly",
+                "explanation": "Interfaces are implemented explicitly with a refence to the interface name"
+            },
+            {
+                "title": "implicitly",
+                "explanation": "Interfaces are implemented implicitly by creating methods with the same name and parameters"
+            }
+        ]
+    },
+    {
+        "title": "Typification",
+        "choices": [
+            {
+                "title": "Dynamic",
+                "explanation": ""
+            },
+            {
+                "title": "static",
+                "explanation": ""
+            }
+        ]
+    },
+    {
+        "title": "Aspect Oriented Programming",
+        "choices": [
+            {
+                "title": "Before Compiling",
+                "explanation": ""
+            },
+            {
+                "title": "After Compiling",
+                "explanation": ""
+            },
+            {
+                "title": "No Support",
+                "explanation": ""
+            }
+        ]
+    }
+]

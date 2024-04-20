@@ -1,0 +1,5 @@
+{
+    "Name": "Rust",
+    "Runtime Execution": "Machine Code",
+    "Memory Managemant": "Borrowing"
+}
